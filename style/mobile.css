@@ -1,0 +1,98 @@
+/* Home - Reservation */
+@media(max-width:1037px){
+  #reservation {
+    /* background: #fafbfb; */
+    height: 220px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #reservation .reservation-text{
+    text-align: center;
+    float: none;
+    padding: 10px
+  }
+  
+  #reservation .reservation-btn {
+    float: none;
+    padding: 10px;
+  } 
+
+}
+
+@media(max-width:768px){
+  /* Menu */
+  #navbar .logo {
+    float: none;
+    text-align: center;
+  }
+
+  #navbar ul, #navbar ul li {
+    float: none;
+  }
+
+  #navbar ul li a {
+    padding: 5px;
+    border-bottom: #444 dotted 1px;
+  }
+
+  /* Home - Showcase */
+  #showcase {
+    height: 350px;
+  }
+
+  #showcase .showcase-content{
+    padding-top: 50px;
+  }
+
+  /* Home Features */
+  .box {
+    float: none;
+    width: 100%;
+  }
+
+  /* About */
+  #about .about-text{
+    float: none;
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  #about .about-img {
+    float: none;
+    width: 100%;
+    padding: 10px 0 15px 0;
+  }
+
+  /* Testimonials */
+  #testimonials {
+    height: 600px;
+    padding: 0px;
+  }
+
+  #testimonials h2 {
+    padding: 20px 0;
+  }
+
+  #testimonials .testimonial {
+    margin-bottom: 10px;
+  }
+
+  #testimonials .testimonial img {
+    float: none;
+    margin-top: 10px;
+  }
+}
+
+@media(max-width:375px){
+/* Home - Showcase */
+  #showcase {
+  height: 400px;
+}
+
+#showcase .showcase-content{
+  padding-top: 30px;
+}
+}
