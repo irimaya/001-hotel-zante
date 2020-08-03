@@ -3,71 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="stylesheet" media="screen and (max-width:768px)" href="style/mobile.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
   <title>Hotel Zante | Contact</title>
 </head>
 <body>
   <header>
-    <nav id="navbar">
+    <nav id="navbar" class="py-30">
       <div class="container">
         <h1 class="logo"><a href="index.html">Hotel Zante</a></h1>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a class="current" href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="current">Contact</a></li>
         </ul>
       </div>
     </nav>
   </header>
+  
+  <hr>
 
-  <div class="bk-line"></div>
-
-  <section id="contact-form" class="py-3">
+  <section id="contact" class="py-80">
     <div class="container">
       <h1>Contact Us</h1>
       <form action="">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name">
-        </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email">
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea name="message" id="message" cols="50" rows="5"></textarea>
-        </div>
-        <!-- <input class="btn light" type="submit" value="Submit"> -->
-        <button type="submit" class="btn dark">Submit</button>
-       </form>
+        <label for="name">Your Name</label>
+        <input type="text" id="name">
+
+        <label for="email">Your Email</label>
+        <input type="mail" id="mail">
+
+        <label for="message">Your Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+        <button class="btn btn-dark">Submit</button>
       </form>
     </div>
-  </section>
+  </section>  
 
-  <section class="contact-features">
-    <div class="box bg-contact-1">
-        <h3>Double Room</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sunt explicabo atque veritatis harum, velit excepturi minus ipsam quo dignissimos quisquam odio in.</p>
+  <section id="features-contact">
+    <div class="box location">
+      <h4>location</h4>
+      <p>25 Street Zakym Greece</p>
     </div>
-    <div class="box bg-contact-2">
-      <h3>Deluxe Room</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sunt explicabo atque veritatis harum, velit excepturi minus ipsam quo dignissimos quisquam odio in.</p>
+    <div class="box phone">
+      <h4>Phone number</h4>
+      <p>333 444 6666</p>
     </div>
-    <div class="box bg-contact-3">
-      <h3>Honeymoon Room</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus sunt explicabo atque veritatis harum, velit excepturi minus ipsam quo dignissimos quisquam odio in.</p>
+    <div class="box email">
+      <h4>Email Address</h4>
+      <p>hola@mail.com</p>
     </div>
   </section>
 
   <div class="clr"></div>
 
-  <section id="footer">
-    <p>Hotel Zante &copy; 2020, All Rights Reserved </p>
-  </section>
-
+  <footer id="mainfooter" class="py-30">
+    <p>&copy; 2020 Hotel Zante</p>
+  </footer>
 
 </body>
 </html>

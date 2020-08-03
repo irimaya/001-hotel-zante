@@ -1,0 +1,68 @@
+/* Utility Classes */
+.py-80 {padding: 30px 0;}
+.py-50 {padding: 20px 0;}
+.py-30 {padding: 10px 0;}
+
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* Navbar */
+#navbar {
+  text-align: center;
+}
+
+#navbar .logo {
+  float: none;
+  padding-bottom: 10px;
+}
+
+#navbar ul {
+  float: none;
+}
+
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 10px;
+}
+
+/* Showcase */
+#showcase {
+  margin-top: 10px;
+  padding: 80px;
+  height: 100%;
+}
+
+/* Reservation */
+#reservation {
+  text-align: center;
+}
+#reservation h2 {
+  float: none;
+  margin: 10px;
+}
+
+#reservation a {
+  float: none;
+  margin: 10px;
+}
+
+/* About */
+#about {
+  text-align: center;
+}
+
+#about .about-content {
+  float: none;
+  width: 100%;
+  padding: 10px;
+}
+
+#about .about-img {
+  float: none;
+  width: 100%;
+}
